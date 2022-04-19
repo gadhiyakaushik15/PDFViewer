@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		522F58D520A035B400A31795 /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F58D420A035B400A31795 /* BookmarkViewController.swift */; };
+		522F58D720A0392D00A31795 /* ThumbnailGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F58D620A0392C00A31795 /* ThumbnailGridCell.swift */; };
+		52D4C37B20A1DED200E6137F /* SearchResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4C37920A1DED200E6137F /* SearchResultsCell.swift */; };
+		52D4C37C20A1DED200E6137F /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4C37A20A1DED200E6137F /* SearchTableViewController.swift */; };
+		52F9672D209C58FD0034D447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9672C209C58FD0034D447 /* AppDelegate.swift */; };
+		52F96732209C58FD0034D447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F96730209C58FD0034D447 /* Main.storyboard */; };
+		52F96734209C59020034D447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F96733209C59020034D447 /* Assets.xcassets */; };
+		52F96737209C59030034D447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F96735209C59030034D447 /* LaunchScreen.storyboard */; };
+		52F96743209C5AC40034D447 /* BookListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F96742209C5AC40034D447 /* BookListTableViewController.swift */; };
+		52F96746209C5AE40034D447 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F96745209C5AE40034D447 /* PDFKit.framework */; };
+		52F96748209C5C070034D447 /* BookListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F96747209C5C070034D447 /* BookListTableViewCell.swift */; };
+		52F9674B209C5E030034D447 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9674A209C5E030034D447 /* BookViewController.swift */; };
+		52F9674E209C5ED40034D447 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9674D209C5ED40034D447 /* AppConstants.swift */; };
+		52F96750209C5F6D0034D447 /* swift_tutorial.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52F9674F209C5F6D0034D447 /* swift_tutorial.pdf */; };
+		52F96752209C8C4B0034D447 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F96751209C8C4B0034D447 /* Helper.swift */; };
+		6BDE02F53C29CF6C50BCC0EF /* Pods_PDFViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD97C0193DD8A16D6D2F943 /* Pods_PDFViewer.framework */; };
+		E396086A223D7B6F00396B4C /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3960868223D7B6F00396B4C /* Crashlytics.framework */; };
+		E396086B223D7B6F00396B4C /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3960869223D7B6F00396B4C /* Fabric.framework */; };
+		E3960873223D83B100396B4C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3960872223D83B100396B4C /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		522F58D420A035B400A31795 /* BookmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewController.swift; sourceTree = "<group>"; };
+		522F58D620A0392C00A31795 /* ThumbnailGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailGridCell.swift; sourceTree = "<group>"; };
+		52D4C37920A1DED200E6137F /* SearchResultsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsCell.swift; sourceTree = "<group>"; };
+		52D4C37A20A1DED200E6137F /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		52F96729209C58FD0034D447 /* PDFViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F9672C209C58FD0034D447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52F96731209C58FD0034D447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52F96733209C59020034D447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52F96736209C59030034D447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52F96738209C59030034D447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F96742209C5AC40034D447 /* BookListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListTableViewController.swift; sourceTree = "<group>"; };
+		52F96745209C5AE40034D447 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		52F96747209C5C070034D447 /* BookListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListTableViewCell.swift; sourceTree = "<group>"; };
+		52F9674A209C5E030034D447 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		52F9674D209C5ED40034D447 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		52F9674F209C5F6D0034D447 /* swift_tutorial.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = swift_tutorial.pdf; sourceTree = "<group>"; };
+		52F96751209C8C4B0034D447 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		5CD97C0193DD8A16D6D2F943 /* Pods_PDFViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3960866223D743300396B4C /* PDFViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PDFViewer.entitlements; sourceTree = "<group>"; };
+		E3960868223D7B6F00396B4C /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		E3960869223D7B6F00396B4C /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		E3960872223D83B100396B4C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F5C3DAF0C2E8FBF691A33688 /* Pods-PDFViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDFViewer/Pods-PDFViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		FA6E6A191B16F2613CCDF799 /* Pods-PDFViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDFViewer/Pods-PDFViewer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52F96726209C58FD0034D447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F96746209C5AE40034D447 /* PDFKit.framework in Frameworks */,
+				E396086A223D7B6F00396B4C /* Crashlytics.framework in Frameworks */,
+				6BDE02F53C29CF6C50BCC0EF /* Pods_PDFViewer.framework in Frameworks */,
+				E396086B223D7B6F00396B4C /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23115102650BCBB135D58BA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5C3DAF0C2E8FBF691A33688 /* Pods-PDFViewer.debug.xcconfig */,
+				FA6E6A191B16F2613CCDF799 /* Pods-PDFViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		522F58D320A0358600A31795 /* BookmarkVC */ = {
+			isa = PBXGroup;
+			children = (
+				522F58D420A035B400A31795 /* BookmarkViewController.swift */,
+				522F58D620A0392C00A31795 /* ThumbnailGridCell.swift */,
+			);
+			path = BookmarkVC;
+			sourceTree = "<group>";
+		};
+		52D4C35020A178CF00E6137F /* SearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				52D4C37A20A1DED200E6137F /* SearchTableViewController.swift */,
+				52D4C37920A1DED200E6137F /* SearchResultsCell.swift */,
+			);
+			path = SearchVC;
+			sourceTree = "<group>";
+		};
+		52F96720209C58FC0034D447 = {
+			isa = PBXGroup;
+			children = (
+				52F9672B209C58FD0034D447 /* PDFViewer */,
+				52F9672A209C58FD0034D447 /* Products */,
+				52F96744209C5AE40034D447 /* Frameworks */,
+				23115102650BCBB135D58BA2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		52F9672A209C58FD0034D447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52F96729209C58FD0034D447 /* PDFViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52F9672B209C58FD0034D447 /* PDFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				E3960866223D743300396B4C /* PDFViewer.entitlements */,
+				52F9674C209C5E710034D447 /* Supports */,
+				E3960874223D846A00396B4C /* App Main Class */,
+				52F9673E209C5A280034D447 /* Controller */,
+				52F96730209C58FD0034D447 /* Main.storyboard */,
+				52F96733209C59020034D447 /* Assets.xcassets */,
+				52F96735209C59030034D447 /* LaunchScreen.storyboard */,
+				52F96738209C59030034D447 /* Info.plist */,
+				E3960872223D83B100396B4C /* GoogleService-Info.plist */,
+				52F9674F209C5F6D0034D447 /* swift_tutorial.pdf */,
+			);
+			path = PDFViewer;
+			sourceTree = "<group>";
+		};
+		52F9673E209C5A280034D447 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52F9673F209C5A380034D447 /* BookListVC */,
+				52F96749209C5DB80034D447 /* BookViewVC */,
+				522F58D320A0358600A31795 /* BookmarkVC */,
+				52D4C35020A178CF00E6137F /* SearchVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52F9673F209C5A380034D447 /* BookListVC */ = {
+			isa = PBXGroup;
+			children = (
+				52F96742209C5AC40034D447 /* BookListTableViewController.swift */,
+				52F96747209C5C070034D447 /* BookListTableViewCell.swift */,
+			);
+			path = BookListVC;
+			sourceTree = "<group>";
+		};
+		52F96744209C5AE40034D447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3960868223D7B6F00396B4C /* Crashlytics.framework */,
+				E3960869223D7B6F00396B4C /* Fabric.framework */,
+				52F96745209C5AE40034D447 /* PDFKit.framework */,
+				5CD97C0193DD8A16D6D2F943 /* Pods_PDFViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52F96749209C5DB80034D447 /* BookViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				52F9674A209C5E030034D447 /* BookViewController.swift */,
+			);
+			path = BookViewVC;
+			sourceTree = "<group>";
+		};
+		52F9674C209C5E710034D447 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				52F9674D209C5ED40034D447 /* AppConstants.swift */,
+				52F96751209C8C4B0034D447 /* Helper.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		E3960874223D846A00396B4C /* App Main Class */ = {
+			isa = PBXGroup;
+			children = (
+				52F9672C209C58FD0034D447 /* AppDelegate.swift */,
+			);
+			path = "App Main Class";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52F96728209C58FD0034D447 /* PDFViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F9673B209C59030034D447 /* Build configuration list for PBXNativeTarget "PDFViewer" */;
+			buildPhases = (
+				D500580AB7B619B55148E650 /* [CP] Check Pods Manifest.lock */,
+				52F96725209C58FD0034D447 /* Sources */,
+				52F96726209C58FD0034D447 /* Frameworks */,
+				52F96727209C58FD0034D447 /* Resources */,
+				3558D71E922D7DD389C9D7C2 /* [CP] Embed Pods Frameworks */,
+				E3960867223D7AC700396B4C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFViewer;
+			productName = PDFViewer;
+			productReference = 52F96729209C58FD0034D447 /* PDFViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52F96721209C58FC0034D447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1330;
+				ORGANIZATIONNAME = "Geekmindz Solutions LLP";
+				TargetAttributes = {
+					52F96728209C58FD0034D447 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1330;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 52F96724209C58FC0034D447 /* Build configuration list for PBXProject "PDFViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52F96720209C58FC0034D447;
+			productRefGroup = 52F9672A209C58FD0034D447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52F96728209C58FD0034D447 /* PDFViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52F96727209C58FD0034D447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F96737209C59030034D447 /* LaunchScreen.storyboard in Resources */,
+				52F96734209C59020034D447 /* Assets.xcassets in Resources */,
+				E3960873223D83B100396B4C /* GoogleService-Info.plist in Resources */,
+				52F96750209C5F6D0034D447 /* swift_tutorial.pdf in Resources */,
+				52F96732209C58FD0034D447 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3558D71E922D7DD389C9D7C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDFViewer/Pods-PDFViewer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDFViewer/Pods-PDFViewer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PDFViewer/Pods-PDFViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D500580AB7B619B55148E650 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDFViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3960867223D7AC700396B4C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 1dfdcaad27134d3e09b2e3f2160abc4b52339763 84c1be69e53be5cc2f3600b8cf6c38ccbe6995a68ee963e246c3428174602143\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52F96725209C58FD0034D447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D4C37B20A1DED200E6137F /* SearchResultsCell.swift in Sources */,
+				52F96743209C5AC40034D447 /* BookListTableViewController.swift in Sources */,
+				52F9674B209C5E030034D447 /* BookViewController.swift in Sources */,
+				52F96748209C5C070034D447 /* BookListTableViewCell.swift in Sources */,
+				522F58D520A035B400A31795 /* BookmarkViewController.swift in Sources */,
+				522F58D720A0392D00A31795 /* ThumbnailGridCell.swift in Sources */,
+				52F9672D209C58FD0034D447 /* AppDelegate.swift in Sources */,
+				52D4C37C20A1DED200E6137F /* SearchTableViewController.swift in Sources */,
+				52F9674E209C5ED40034D447 /* AppConstants.swift in Sources */,
+				52F96752209C8C4B0034D447 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52F96730209C58FD0034D447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52F96731209C58FD0034D447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52F96735209C59030034D447 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52F96736209C59030034D447 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52F96739209C59030034D447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52F9673A209C59030034D447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52F9673C209C59030034D447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C3DAF0C2E8FBF691A33688 /* Pods-PDFViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PDFViewer/PDFViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 323VAV5J42;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PDFViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekmindz.PDFViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		52F9673D209C59030034D447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA6E6A191B16F2613CCDF799 /* Pods-PDFViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PDFViewer/PDFViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 323VAV5J42;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PDFViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekmindz.PDFViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52F96724209C58FC0034D447 /* Build configuration list for PBXProject "PDFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F96739209C59030034D447 /* Debug */,
+				52F9673A209C59030034D447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F9673B209C59030034D447 /* Build configuration list for PBXNativeTarget "PDFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F9673C209C59030034D447 /* Debug */,
+				52F9673D209C59030034D447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52F96721209C58FC0034D447 /* Project object */;
+}

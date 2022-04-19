@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>774002715696-hh37tss1cvdbnmd3e2ghulr1v45rfgdk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.774002715696-hh37tss1cvdbnmd3e2ghulr1v45rfgdk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCvThiRBKNo-YzQWEL0aDIzfd-MvOAm5uc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>774002715696</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.app.PDFViewer</string>
+	<key>PROJECT_ID</key>
+	<string>pdf-viewer-7d76c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pdf-viewer-7d76c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:774002715696:ios:1c12d34c42b90786</string>
+	<key>DATABASE_URL</key>
+	<string>https://pdf-viewer-7d76c.firebaseio.com</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-8576867486596636~6351002112</string>
+</dict>
+</plist>
